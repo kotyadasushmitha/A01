@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>javascript: calculate two numbers</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="sushmitha.css">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        </head>
+    <body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="calculation.html">YourChoice</a>
+      <a class="navbar-brand" href="contact.html">Contact</a>
+  </div>
+</nav>  
+	<section id="opers">
+	  <center><h1> Mathematical Calculations</h1></center><br>
+        
+        <h4>Enter Value1:<input type="text" id="n1"/></br></br></br>
+        Enter Value2:<input type="text" id="n2"/><br/><br/></br>
+		Enter the operators in order to perform Addition/Substraction/Multiplication/Division :         
+        <select id="operators">
+            <option value="+">Addition(+)</option>
+            <option value="-">Substraction(-)</option>
+            <option value="/">Division(/)</option>
+            <option value="X">Multiplication(X)</option>
+			<option value="%">Modulus(%)</option>
+        </select></br></br></br>
+		Calculating the values:  
+        <input type="button" value="         submit         " onclick="calc()"></br></br></br>
+		Desired Output:
+        <input type="text" id="result"/>
+		<script src="calculation.js"></script>
+        </h4>
+		</section>
+    </body>
+</html>
