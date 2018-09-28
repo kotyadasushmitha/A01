@@ -51,6 +51,14 @@ font-family:blue;
 color:red;
 font-family:blue;
 }
+#present-section{
+    color:red;
+    font-family:blue;
+    }
+.data-section{
+	color:red;
+font-family:blue;
+}
 .section-header{
 color:orange;
 font-family:blue;
@@ -98,11 +106,15 @@ table{
 }
 #opers{
 	text-align:center;
+}
+#oper{
+	text-align:center;
 	background-color: #CCD1D1;
 }
 #pattern{
 	background-size: 100%;
-	
+    background-image: url("balls.jpeg");
+    background-repeat: unset;
 }
 
 
