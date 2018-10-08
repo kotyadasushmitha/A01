@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="sushmitha.css">
   <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -27,10 +28,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="game.html">Game</a>
-              </li>
-            </ul>
+              </ul>
           </div>
         </nav>
     <section id="opers">
@@ -55,28 +53,42 @@
           </div>
         </div>
       </div>
-      <div>
-        <form>
-          <br>
-          First Name<sup style="color:red">*</sup>
-          <input type="text" name="FirstName" value="Durga" required><br><br>
-          Last Name<sup style="color:red">*</sup>
-          <input type="text" name="Lastname" value="Susmitha" required><br><br>
-          Gender<sup style="color:red">*</sup>
-          <input type="radio" name="Male" value="Male">Male
-          <input type="radio" name="Female" value="Female" checked>Female<br><br>
-          <p>Any questions?</p>
-          <textarea style="height:100px;width:100px"></textarea><br><br>
-          <button type="button" name="Submit" onclick="alert('Thank you! your response is recorded')">Submit</button>
-        </form>
-      </div>
-    </section>
+      <div class="row">
+          <div class="col-md-3">
+       </div>
+       <form class="col-md-6" action = "Thanks.html">
+       <div class="form-group">
+       <label for="First">Firstname:</label>
+       <input type="name" class="form-control" id="firstname">
+         </div>
+         <div class="form-group">
+           <label for="Last">Lastname:</label>
+           <input type="name" class="form-control" id="lastname">
+         </div>
+         <div class="form-group">
+            <label for="phn">Phone Number:</label>
+            <input type="number" class="form-control" id="phonenumber">
+              </div>
+       <div class="form-group">
+       <label for="email">Email address:</label>
+       <input type="email" class="form-control" id="email1">
+       </div>
+       <div class="form-group">
+       <label for="Query:">Query:</label>
+       <textarea class="form-control" rows="5" id="comment"></textarea>
+       </div>
+        
+         <button type="submit" class="btn btn-default">Submit</button>
+       </form>
+       <div class="col-md-3 nav">
+     </div>
+       </div>
+     </div>
+    
   </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"-->
-  <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"-->
-</body>
+  </body>
 
 </html>
